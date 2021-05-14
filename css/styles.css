@@ -527,7 +527,6 @@ span.arrows:hover {
 #photos {
   /* Prevent vertical gaps */
   line-height: 0;
-  max-height: 300px;
    
   -webkit-column-count: 3;
   -webkit-column-gap:   0px;
