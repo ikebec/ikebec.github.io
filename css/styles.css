@@ -42,7 +42,7 @@ table             {border-collapse: collapse;border-spacing: 0;}
 body {
   font-family: 'kollektifregular';
   font-size: 16px;
-  max-width: 400px;
+  max-width: 600px;
   margin:0 auto;
   padding: 5px 10px;
 }
@@ -81,7 +81,7 @@ p {
 
 li {
   font-family: 'kollektifregular';
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.2;
 }
 
@@ -529,11 +529,11 @@ span.arrows:hover {
   /* Prevent vertical gaps */
   line-height: 0;
    
-  -webkit-column-count: 3;
+  -webkit-column-count: 4;
   -webkit-column-gap:   0px;
-  -moz-column-count:    3;
+  -moz-column-count:    4;
   -moz-column-gap:      0px;
-  column-count:         3;
+  column-count:         4;
   column-gap:           0px;  
 }
 
