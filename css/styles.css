@@ -1,0 +1,237 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td
+                  {margin: 0;padding: 0;border: 0;outline: 0;
+                  font-size: 100%;vertical-align: baseline;
+                  background: transparent;}
+body              {line-height: 1;}
+ol, ul            {list-style: none;}
+blockquote, q     {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';	content: none;}
+:focus            {outline: 0;}
+ins               {text-decoration: none;}
+del               {text-decoration: line-through;}
+table             {border-collapse: collapse;border-spacing: 0;}
+
+/* FONTS */
+@font-face {
+    font-family: 'kollektifbold';
+    src: url('fonts/kollektif-bold-webfont.woff2') format('woff2'),
+         url('fonts/kollektif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kollektifregular';
+    src: url('fonts/kollektif-webfont.woff2') format('woff2'),
+         url('fonts/kollektif-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* MAIN CSS */
+
+body {
+  font-family: 'kollektifregular';
+  font-size: 16px;
+  max-width: 650px;
+  margin:0 auto;
+  padding: 5px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'kollektifbold';
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 1.9px;
+  line-height: 1;
+  margin: 15px auto;
+}
+
+h2 {
+  font-family: 'kollektifregular';
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  line-height: 1.3;
+  padding-top: 10px;
+}
+
+h3 {
+  font-family: 'kollektifregular';
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+  line-height: 1.3;
+}
+
+p {
+  font-family: 'kollektifregular';
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+li {
+  font-family: 'kollektifregular';
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+
+p + p {
+  margin-top: 8px;
+}
+
+p.date {
+  color: #a9a9a9;
+}
+
+p.toplink a {
+  color: #000000;
+  text-decoration: none;
+}
+
+button {
+  font-family: 'kollektifregular';
+}
+
+hr {
+  border: none;
+  background-color: #f0f0f0;
+  /* color: #f5f5f5; */
+  height: 7px;
+}
+
+.back-arrow a {
+  text-decoration: none;
+  float: left;
+}
+
+.navigate-arrows {
+  display: inline;
+}
+
+.navigate-arrows img {
+  max-height: 50px;
+}
+
+.date {
+	float: left;
+}
+
+.toplink {
+	float: right;
+}
+
+.nostylelink {
+  color: #000;
+  text-decoration: none;
+}
+
+.nostylelink:hover {
+  color: #ff5757;
+}
+
+span.arrows {
+  color: #ff5757;
+  font-weight: 1000;
+}
+
+span.arrows:hover {
+  color: #5271ff;
+}
+
+.footer {
+  background-color: #d3d3d3;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+  text-align: center;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: .8em;
+}
+
+.footer ul li {
+  display: inline;
+  color: #000;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000;
+  line-height: 1.5;
+}
+
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.brand-banner {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand-banner img {
+  max-width: 100%;
+}
+
+.member-banner {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.member-banner img {
+  max-width: 50%;
+}
+
+#topnavline {
+  padding-top: 15px;
+}
+
+/* Image grid homepage */
+
+#logos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+}
+
+#logos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
