@@ -89,6 +89,10 @@ hr {
   height: 7px;
 }
 
+td {
+  padding:0 20px 0 0;
+}
+
 .footer {
   background-color: #d3d3d3;
   padding: 10px;
