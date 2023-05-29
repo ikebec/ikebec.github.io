@@ -133,6 +133,10 @@ td {
   border-left: 0 solid #000;
 }
 
+.list li {
+  margin-bottom: 10px;
+}
+
 .member-banner {
   text-align: center;
   display: block;
