@@ -48,12 +48,6 @@ a {
   color: inherit;
 }
 
-p {
-}
-
-li {
-}
-
 h1 {
   font-family: 'Bungee Shade', cursive;
   font-size: 4em;
@@ -88,6 +82,18 @@ hr {
   height: 7px;
 }
 
+.brand-banner {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand-banner img {
+  max-width: 100%;
+}
+
+
 .footer {
   background-color: #d3d3d3;
   padding: 10px;
@@ -109,23 +115,13 @@ hr {
   color: #000;
 }
 
-.brand-banner {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.header {
+  margin: 0 auto;
+  padding-bottom: 5px;
 }
 
-.brand-banner img {
-  max-width: 100%;
-}
-
-.contactblock {
-  font-size: 1em;
-  float: left;
-  position: relative;
-  margin: 10px auto;
-  border-left: 0 solid #000;
+.list li {
+  margin-bottom: 10px;
 }
 
 .member-banner {
@@ -137,11 +133,6 @@ hr {
 
 .member-banner img {
   max-width: 50%;
-}
-
-.header {
-  margin: 0 auto;
-  padding-bottom: 5px;
 }
 
 .navlinks {
