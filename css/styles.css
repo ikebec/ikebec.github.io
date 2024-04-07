@@ -93,6 +93,9 @@ hr {
   max-width: 100%;
 }
 
+.contact-block {
+  margin: 5px auto;
+}
 
 .footer {
   background-color: #d3d3d3;
