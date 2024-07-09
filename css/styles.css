@@ -44,8 +44,13 @@ body {
 }
 
 a {
+  color: #d80000;
   text-decoration: none;
-  color: inherit;
+}
+
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
