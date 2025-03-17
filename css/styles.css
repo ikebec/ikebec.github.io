@@ -41,7 +41,7 @@ body {
   margin:0 auto;
   padding: 5px 10px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #ededed;
 }
 
 a {
@@ -118,7 +118,10 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+}
+
+.brand-banner img {
+  max-width: 100%;
 }
 
 .contactblock {
@@ -126,7 +129,6 @@ hr {
 }
 
 .footer {
-  background-color: #d3d3d3;
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
